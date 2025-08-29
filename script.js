@@ -64,6 +64,11 @@ for (let i = 1; i <= 9; i++) {
     });
 }
 
+// clear history 
+document.getElementById('clear-btn').addEventListener('click', function () {
+    document.getElementById('call-history').innerHTML = '';
+});
+
 
 
 
