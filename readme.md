@@ -13,12 +13,18 @@ Ans:
 -Add text, attributes, or classes.
 -Use appendChild() or append() to add it to the page.
 
+
+
 What is Event Bubbling and how does it work?
 ans: Event bubbling means when an event happens on a child element, it also goes up to its parent elements. The event "bubbles" from the inside to the outside.
+
+
 
 What is Event Delegation in JavaScript? Why is it useful?
 ans:
 Event delegation means putting the event listener on a parent, and using it to handle events from children. It is useful when you have many child elements or dynamic elements.
+
+
 
 What is the difference between preventDefault() and stopPropagation() methods?
 ans:
